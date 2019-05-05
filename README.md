@@ -42,5 +42,5 @@ Row Binding: To bind the values on rows we have to use nestate loop as,
 ![alt text](https://github.com/pravin02/dynamic-table-header-row/blob/master/screenshots/json3.png)
 
 4) http://localhost:4200/assets/api/list4.json No record found
-![alt text](https://github.com/pravin02/dynamic-table-header-row/blob/master/screenshots/json4.png)
+![alt text](https://github.com/pravin02/dynamic-table-header-row/blob/master/screenshots/norecord.png)
 
