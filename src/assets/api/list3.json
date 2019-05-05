@@ -1,0 +1,20 @@
+{
+    "status": true,
+    "data": [
+        {
+            "id": 232,
+            "name": "Arshad",
+            "age": 26,
+            "designation": "Freelancer",
+            "dob": "01/01/1991"
+        },
+        {
+            "id": 2020,
+            "name": "Pravin",
+            "age": 26,
+            "designation": "Software Developer",
+            "dob": "02/12/1991"
+        }
+    ],
+    "message": "Success"
+}

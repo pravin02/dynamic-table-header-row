@@ -1,0 +1,21 @@
+<!-- checking if list empty else table should display -->
+<div *ngIf="list.length == 0; else listTable;">
+  <app-error [message]="'No records found'"></app-error>
+</div>
+<ng-template #listTable>
+  <table class="table table-stripped">
+    <thead>
+      <tr>
+        <!-- Looping through key and transforming through titlecase -->
+        <th *ngFor="let key of keys"> {{key | titlecase}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- looping through list -->
+      <tr *ngFor="let l of list">
+        <!-- inner loop through keys -->
+        <td *ngFor="let key of keys">{{l[key]}}</td>
+      </tr>
+    </tbody>
+  </table>
+</ng-template>

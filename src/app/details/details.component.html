@@ -1,0 +1,17 @@
+<div class="text-left">
+<h2> Dynamic table column and row binding</h2>
+<p>
+  Below table bind the details dynamically accordingly JSON received from server
+</p>
+<p >
+  <b>Description:</b> The below list-component receives data from API using service and checks the received data is null
+  or
+  undefined if it is it will display error message on screen otherwise retrive first indexed object and scan for keys of
+  json to bind on th tag.<br />
+  <b>Hint:</b> Object.keys(object);<br />
+  <b>Row Binding:</b> To bind the values on rows we have to use nestate loop as,<br />
+  1) Loop for revceived json and <br />
+  2) For keys<br />
+</p>
+<div [innerText]="htmlCode"></div>
+</div>

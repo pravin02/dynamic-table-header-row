@@ -1,0 +1,4 @@
+{"status":true,"data":[
+    {"id": 232, "name" : "Arshad", "age" : 26, "designation" : "Freelancer"},
+    {"id": 2020, "name" : "Pravin", "age" : 26, "designation" : "Software Developer"}
+    ],"message":"Success"}
