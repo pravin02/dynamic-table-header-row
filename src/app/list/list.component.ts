@@ -26,10 +26,10 @@ export class ListComponent implements OnInit {
    * After component init calling API
    */
   ngOnInit() {
-    let api = 'list1.json';
+    //let api = 'list1.json';
     //let api = 'list2.json';
     //let api = 'list3.json';
-    //let api = 'list4.json';
+    let api = 'list4.json';
     this.fetchList(api);
   }
 
